@@ -1,0 +1,44 @@
+.game {
+  background-image: url('./game-bkgd.png');
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.game-section {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 12vh auto;
+  max-width: 85%;
+  padding: 2vh;
+  width: 95vw;
+}
+
+.timer {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 100px;
+  padding: 0.75vh;
+  width: 25%;
+}
+
+section button {
+  background-color: #353535;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: 700;
+  height: 6vh;
+  margin: 1vw;
+}
+
+.next-btn {
+  background-color: #e94f07;
+}

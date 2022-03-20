@@ -1,0 +1,65 @@
+.ranking-page {
+  background-image: url('./game-bkgd.png');
+  height: inherit;
+  min-height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.ranking-page h1 {
+  background-image: linear-gradient(#fcff40, #bf0);
+  font-size: calc(3vh + 3vw);
+}
+
+.ranking-page button {
+  background-color: #e94f07;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: 700;
+  height: 6vh;
+  margin: 1vw;
+}
+
+.ranking-container {
+  align-items: center;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1.5vh + 1vw);
+  margin: 5vh auto;
+  max-width: 100%;
+  padding: 2vh;
+  width: 85vw;
+}
+
+.ranking-card {
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5vw;
+  max-height: 8vh;
+  padding: 1.5vw;
+  width: 96%;
+}
+
+.ranking-card img {
+  border-radius: 100%;
+  max-width: 50%;
+  width: 8vh;
+}
+
+.ranking-personal {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: calc(55% + 3vh);
+}

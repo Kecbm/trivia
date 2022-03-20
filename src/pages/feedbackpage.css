@@ -1,0 +1,46 @@
+.results {
+  background-image: url('./game-bkgd.png');
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.results-section {
+  align-items: center;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1.5vh + 1vw);
+  justify-content: center;
+  margin: 12vh auto;
+  max-width: 80%;
+  padding: 2vh;
+  width: 60vw;
+}
+
+.results-section h3 {
+  margin-right: 1vh;
+}
+
+.final-score {
+  display: flex;
+}
+
+.assertions-number {
+  display: flex;
+}
+
+.results-btns button {
+  background-color: #e94f07;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: 700;
+  height: 6vh;
+  margin: 1vw;
+}
